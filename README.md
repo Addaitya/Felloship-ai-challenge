@@ -11,7 +11,7 @@
 
 1. **Data Preparation:** 
 The images were resize to 224 by 224 size
-2, **Data Augmentation:** Data augmenation technique is employed for generalisation and impove on problem like class imbalace dataset.
+2. **Data Augmentation:** Data augmenation technique is employed for generalisation and impove on problem like class imbalace dataset.
 3. **Trasfer Learning**
 I applied two transfer learning appoaches:
 <br> 3.1 **Finetuning**: Performed finetuning by retraining the last 10 layers of the pre-trained ResNet 50 model on the Flowers dataset. I was able to achieve **80 percent** of test accuracy. Training beyond that leads to overfitting.
